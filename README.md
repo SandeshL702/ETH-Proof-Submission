@@ -1,5 +1,5 @@
-## MY TOKEN.SOL
-This is a basic Solidity smart contract for a token called "MyToken". 
+
+##This is a basic Solidity smart contract for a token called "MyToken". 
 
 ## DESCIRPTION
 The code is a Solidity smart contract for a basic token called "MyToken". It also has two public variables for the token name and abbreviation, and a total supply variable. It also has a mapping variable called "balances" which maps addresses to their token balances.
