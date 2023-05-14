@@ -9,18 +9,17 @@ This contract has two functions called "mint" and "burn". The "mint" function  a
 We have to use remixIDE to deploy the contract
 
 ## EXECUTING THE PROGRAM
-* CREATE A NEW FOLDER NAMED MYTOKEN.SOL
-* WRITE THE CONTRACT IN SOLIDITY 
-* IF THE REMIX IS ON AUTO COMPILE AND RUN,THE WRITTEN CODE WILL BE COMPILED AND RUN AUTOMATICALLY BUT IF IT IS NOT ON AUTO COMPILE THEN WE HAVE TO MANUALLY COMPILE AND RUN THE CODE BY SELECTING THE OPTION AS COMPILE AND RUN IN THE LEFT MENU.
-* AFTER COMPILING WE DEPLOY THE CONTRACT THEN WE GET THE ACCOUNT ADDRESS WHICH WE USE IN FURTHER STEPS
-* THEN IF THE CODE IS DEPLOYED SUCCESSFULLY WE CAN CHECK THE TOKEN NAME AND TOKEN ABBREVIATION WE HAVE GIVEN IN THE CODE 
-* BY CLICKING ON TOKENABBVR WE CAN CHECK THE TOKEN ABBREVIATION AND SIMILARLY WE CAN CHECK TOKEN SUPPLY AND TOKRN NAME TOOO.
-* INITIALLY WE WILL HAVE 0 BALANCE IN OUR ACCOUNT 
-* FOR MINTING WE CLICK ON MIN BUTTON THEN WE PASTE THE ACCOUNT ADDRESS (WE HAVE PROVIDED AFTER DEPLOYING THE CONTRACT) THEN WE PUT VALUE OFNHOW MUCH TOKEN WE HAVE TO     MINT SUPPOSE LETS TAKE 100 TOKENS THEN CLICK TRANSACT.(TOKENS WILL BE TRANSACTED IN THE ACCOUNT)
-* TO CHECK THR BALANCE CLICK ON  BALANCES THEN PASTE ACCOUNT ADDRESS THEN CLICK ON CALL WE WILL GET THE ACCOUNT BALANCE
-* THEN TO BURN SOME TOKENS WE WILL CLICK ON BURN AND THEN PASTE ACCOUNT ADDRESS THEN SET THE VALUE TO 70 (70 TOKENS WILL BE BURNT FROM OUR ACCOUNT)
-* TO CHECK BALANCE AGAIN PRESS ON CALL WE WILL GET THE LATEST BALANCE. 100-70=30 (30 WILL BE THE LATEST BALANCE).
-* THIS IS ALL FOR THE CONTRACT
+* Create a new folder named mytoken.sol.
+* Write the contract in Solidity.
+* If the Remix is on auto compile and run, the written code will be compiled and run automatically. However, if it is not on auto compile, we have to manually compile and run the code by selecting the option "Compile and Run" in the left menu.
+* After compiling, we deploy the contract, and then we get the account address which we use in further steps.
+* Once the code is deployed successfully, we can check the token name and token abbreviation we have given in the code.
+* By clicking on "tokenabbvr," we can check the token abbreviation, and similarly, we can check the token supply and token name too.
+* Initially, we will have 0 balance in our account.
+* For minting, we click on the "mint" button, then we paste the account address and then we put the value of how many tokens we have to mint. Let's take 100 tokens, then click "transact." 
+* To check the balance, click on "balances," then paste the account address and click on "call." We will get the account balance.
+* Then, to burn some tokens, click on "burn," and then paste the account address, and then set the value to 70 (70 tokens will be burnt from our account).
+* To check the balance again, press "call," and we will get the latest balance. 100 - 70 = 30 (30 will be the latest balance).
 
 ## CONTRACT 
 
